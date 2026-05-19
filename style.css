@@ -18,18 +18,21 @@ head {
 main {
   margin: 10px;
   color: white;
-  min-height: 72vh;
+  min-height: 99vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-image: url("https://images.unsplash.com/photo-1498925008800-019c7d59d903?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 main nav {
   color: white;
-  padding: 0px 10px;
+  padding: 10px 10px;
   width: 100%;
-  min-height: 20vh;
+  min-height: 10vh;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
+  position: sticky;
+  top: 0;
 }
 main nav .anchors {
   padding: 5px 0;
@@ -47,7 +50,7 @@ main nav .anchors div {
   border: 2px solid white;
 }
 main .middletext {
-  height: 100%;
+  height: 70vh;
   padding: 5%;
   display: flex;
   flex-direction: column;
@@ -57,8 +60,11 @@ main .middletext {
   gap: 5px;
 }
 main .middletext h1 {
-  font-size: 6rem;
-  margin-bottom: -20px;
+  font-size: 8rem;
+  line-height: 100%;
+}
+main .middletext p {
+  font-size: 1.4rem;
 }
 main .middletext hr {
   text-align: center;
@@ -190,6 +196,8 @@ footer input {
   font-size: 1rem;
   padding: 10px;
   border: 1px solid transparent;
+  background-color: rgb(221, 221, 221);
+  border-radius: 10px;
 }
 footer button {
   padding: 2px 20px;
