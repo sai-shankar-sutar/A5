@@ -185,7 +185,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 10px;
+  padding: 5px;
 }
 footer h1 {
   font-size: 3rem;
@@ -213,17 +213,22 @@ footer button:active {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding: 30px;
+  padding-bottom: 20vh;
 }
 .end .icons {
-  gap: 10px;
+  display: flex;
+  gap: 12px;
 }
 .end .icons i {
-  margin-right: 5px;
   font-size: 1.5rem;
   font-weight: 600;
 }
+.end .endanchors {
+  display: flex;
+  gap: 10px;
+}
 .end .endanchors a {
-  margin-left: 10px;
   text-decoration: none;
   color: black;
   font-weight: 500;
