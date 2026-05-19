@@ -50,6 +50,12 @@ main nav .anchors div {
   padding: 5px 5px;
   height: 35px;
   border: 2px solid white;
+  transition: all 0.5s;
+}
+main nav .anchors div:hover {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
 }
 main .middletext {
   height: 70vh;
@@ -117,13 +123,13 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 1.2rem;
+  gap: 5vh;
   box-shadow: 2px 20px 24px;
 }
 .middle .card .cards img {
   height: 60%;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 2vh;
 }
 .middle .card .cards hr {
   text-align: center;
@@ -141,7 +147,7 @@ main {
 }
 
 .about {
-  padding: 10px;
+  padding: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
