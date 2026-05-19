@@ -147,7 +147,8 @@ main {
 }
 
 .about {
-  padding: 5%;
+  margin-top: 2%;
+  padding: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
